@@ -178,8 +178,8 @@ export const socials = [
     href: "https://twitter.com/goosedefi",
   },
   {
-    label: "Reddit",
-    icon: "RedditIcon",
+    label: "Discord",
+    icon: "DiscordIcon",
     href: "https://www.reddit.com/r/GooseFinanceofficial",
   },
 ];

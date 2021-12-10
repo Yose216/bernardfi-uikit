@@ -86,6 +86,24 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24} />
         )}
+        {cakePriceUsd ? (
+          <PriceLink href={priceLink} target="_blank">
+            <PancakeRoundIcon width="24px" mr="8px" />
+            <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+          </PriceLink>
+        ) : (
+          <Skeleton width={80} height={24} />
+        )}
+        {cakePriceUsd ? (
+          <PriceLink href={priceLink} target="_blank">
+            <PancakeRoundIcon width="24px" mr="8px" />
+            <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+          </PriceLink>
+        ) : (
+          <Skeleton width={80} height={24} />
+        )}
+      </SocialEntry>
+      <SocialEntry>
         <Flex>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];

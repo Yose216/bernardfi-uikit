@@ -44,5 +44,6 @@ export { default as SyncAltIcon } from "./Icons/SyncAlt";
 export { default as WarningIcon } from "./Icons/Warning";
 export { default as FarmIcon } from "./Icons/Farm";
 export { default as VoteIcon } from "./Icons/Vote";
+export { default as TicketFillIcon } from "./Icons/TicketFill";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
