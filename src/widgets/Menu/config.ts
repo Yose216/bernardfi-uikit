@@ -168,7 +168,7 @@ export const socials = [
       },
       {
         label: "Price Bot",
-        href: "https://t.me/BinanceRocketEGG",
+        href: "https://t.me/BinanceRocketBONES",
       },
     ],
   },

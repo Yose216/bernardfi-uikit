@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon, CogIcon, SvgProps } from "../../components/Svg";
+import { PancakeRoundIcon, CogIcon, SvgProps, BonesRoundIcon, BarrelRoundIcon } from "../../components/Svg";
 import Text from "../../components/Text/Text";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
@@ -59,11 +59,15 @@ const PanelFooter: React.FC<Props> = ({
   pushNav,
   toggleTheme,
   isDark,
-  cakePriceUsd,
+  barrelPriceUsd,
+  bonesPriceUsd,
+  bernPriceUsd,
   currentLang,
   langs,
   setLang,
-  priceLink,
+  bernPriceLink,
+  barrelPriceLink,
+  bonesPriceLink
 }) => {
   if (!isPushed) {
     return (
@@ -78,26 +82,26 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-        {cakePriceUsd ? (
-          <PriceLink href={priceLink} target="_blank">
+        {bernPriceUsd ? (
+          <PriceLink href={bernPriceLink} target="_blank">
             <PancakeRoundIcon width="20px" mr="6px" />
-            <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(2)}`}</Text>
+            <Text color="textSubtle" bold>{`$${bernPriceUsd.toFixed(2)}`}</Text>
           </PriceLink>
         ) : (
           <Skeleton width={80} height={24} />
         )}
-        {cakePriceUsd ? (
-          <PriceLink href={priceLink} target="_blank">
-            <PancakeRoundIcon width="20px" mr="6px" />
-            <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(2)}`}</Text>
+        {barrelPriceUsd ? (
+          <PriceLink href={barrelPriceLink} target="_blank">
+            <BarrelRoundIcon width="20px" mr="6px" />
+            <Text color="textSubtle" bold>{`$${barrelPriceUsd.toFixed(2)}`}</Text>
           </PriceLink>
         ) : (
           <Skeleton width={80} height={24} />
         )}
-        {cakePriceUsd ? (
-          <PriceLink href={priceLink} target="_blank">
-            <PancakeRoundIcon width="20px" mr="6px" />
-            <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(2)}`}</Text>
+        {bonesPriceUsd ? (
+          <PriceLink href={bonesPriceLink} target="_blank">
+            <BonesRoundIcon width="20px" mr="6px" />
+            <Text color="textSubtle" bold>{`$${bonesPriceUsd.toFixed(2)}`}</Text>
           </PriceLink>
         ) : (
           <Skeleton width={80} height={24} />

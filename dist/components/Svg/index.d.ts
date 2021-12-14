@@ -45,5 +45,7 @@ export { default as WarningIcon } from "./Icons/Warning";
 export { default as FarmIcon } from "./Icons/Farm";
 export { default as VoteIcon } from "./Icons/Vote";
 export { default as TicketFillIcon } from "./Icons/TicketFill";
+export { default as BonesRoundIcon } from "./Icons/BonesRound";
+export { default as BarrelRoundIcon } from "./Icons/BarrelRound";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";
