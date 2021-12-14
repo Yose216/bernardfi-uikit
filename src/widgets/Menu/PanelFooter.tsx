@@ -84,7 +84,7 @@ const PanelFooter: React.FC<Props> = ({
       <SocialEntry>
         {bernPriceUsd ? (
           <PriceLink href={bernPriceLink} target="_blank">
-            <PancakeRoundIcon width="20px" mr="6px" />
+            <PancakeRoundIcon width="20px" mr="5px" />
             <Text color="textSubtle" bold>{`$${bernPriceUsd.toFixed(2)}`}</Text>
           </PriceLink>
         ) : (
@@ -92,7 +92,7 @@ const PanelFooter: React.FC<Props> = ({
         )}
         {barrelPriceUsd ? (
           <PriceLink href={barrelPriceLink} target="_blank">
-            <BarrelRoundIcon width="20px" mr="6px" />
+            <BarrelRoundIcon width="20px" mr="5px" ml="5px" />
             <Text color="textSubtle" bold>{`$${barrelPriceUsd.toFixed(2)}`}</Text>
           </PriceLink>
         ) : (
@@ -100,7 +100,7 @@ const PanelFooter: React.FC<Props> = ({
         )}
         {bonesPriceUsd ? (
           <PriceLink href={bonesPriceLink} target="_blank">
-            <BonesRoundIcon width="20px" mr="6px" />
+            <BonesRoundIcon width="20px" mr="5px" ml="5px" />
             <Text color="textSubtle" bold>{`$${bonesPriceUsd.toFixed(2)}`}</Text>
           </PriceLink>
         ) : (
