@@ -47,5 +47,6 @@ export { default as VoteIcon } from "./Icons/Vote";
 export { default as TicketFillIcon } from "./Icons/TicketFill";
 export { default as BonesRoundIcon } from "./Icons/BonesRound";
 export { default as BarrelRoundIcon } from "./Icons/BarrelRound";
+export { default as BernRoundIcon } from "./Icons/BernRound";
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";

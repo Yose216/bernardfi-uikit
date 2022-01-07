@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { PancakeRoundIcon, CogIcon, SvgProps, BonesRoundIcon, BarrelRoundIcon } from "../../components/Svg";
+import { PancakeRoundIcon, BernRoundIcon, CogIcon, SvgProps, BonesRoundIcon, BarrelRoundIcon } from "../../components/Svg";
 import Text from "../../components/Text/Text";
 import Flex from "../../components/Flex/Flex";
 import Dropdown from "../../components/Dropdown/Dropdown";
@@ -84,7 +84,7 @@ const PanelFooter: React.FC<Props> = ({
       <SocialEntry>
         {bernPriceUsd ? (
           <PriceLink href={bernPriceLink} target="_blank">
-            <PancakeRoundIcon width="20px" mr="5px" />
+            <BernRoundIcon width="20px" mr="5px" />
             <Text color="textSubtle" bold>{`$${bernPriceUsd.toFixed(2)}`}</Text>
           </PriceLink>
         ) : (
