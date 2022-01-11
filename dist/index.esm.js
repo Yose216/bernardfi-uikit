@@ -2249,7 +2249,20 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/bernardfinance",
+        items: [
+            {
+                label: "France",
+                href: "https://t.me/bernardfinanceFR",
+            },
+            {
+                label: "China",
+                href: "https://t.me/bernardfinance_cn",
+            },
+            {
+                label: "Annoucements",
+                href: "https://t.me/bernardfinance_ANN",
+            },
+        ]
     },
     {
         label: "Twitter",
@@ -2259,7 +2272,7 @@ var socials = [
     {
         label: "Discord",
         icon: "DiscordIcon",
-        href: "https://www.discord.com",
+        href: "https://discord.gg/vZwyFPZq",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2398,6 +2411,9 @@ var PanelFooter = function (_a) {
                 var Icon = Icons$1[social.icon];
                 var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
                 var mr = index < socials.length - 1 ? "8px" : 0;
+                if (social.items) {
+                    return (React.createElement(Dropdown, { key: social.label, position: "top", target: React.createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React.createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
+                }
                 return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React.createElement(Icon, __assign({}, iconProps))));
             })))));

@@ -117,7 +117,20 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/bernardfinance",
+    items: [
+        {
+            label: "France",
+            href: "https://t.me/bernardfinanceFR",
+        },
+        {
+            label: "China",
+            href: "https://t.me/bernardfinance_cn",
+        },
+        {
+            label: "Annoucements",
+            href: "https://t.me/bernardfinance_ANN",
+        },
+    ]
   },
   {
     label: "Twitter",
@@ -127,7 +140,7 @@ export const socials = [
   {
     label: "Discord",
     icon: "DiscordIcon",
-    href: "https://www.discord.com",
+    href: "https://discord.gg/vZwyFPZq",
   },
 ];
 
