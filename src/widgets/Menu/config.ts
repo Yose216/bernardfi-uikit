@@ -122,7 +122,12 @@ export const socials = [
   {
     label: "Discord",
     icon: "DiscordIcon",
-    href: "https://discord.gg/vZwyFPZq",
+    href: "https://discord.gg/Qab3dzazTY",
+  },
+  {
+    label: "Instagram",
+    icon: "InstagramIcon",
+    href: "https://www.instagram.com/bernard.finance",
   },
   {
     label: "Telegram",
