@@ -115,6 +115,16 @@ export const links = [
 
 export const socials = [
   {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/BernardFinance",
+  },
+  {
+    label: "Discord",
+    icon: "DiscordIcon",
+    href: "https://discord.gg/vZwyFPZq",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
@@ -131,16 +141,6 @@ export const socials = [
             href: "https://t.me/bernardfinance_ANN",
         },
     ]
-  },
-  {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/BernardFinance",
-  },
-  {
-    label: "Discord",
-    icon: "DiscordIcon",
-    href: "https://discord.gg/vZwyFPZq",
   },
 ];
 

@@ -2260,6 +2260,16 @@ var links = [
 ];
 var socials = [
     {
+        label: "Twitter",
+        icon: "TwitterIcon",
+        href: "https://twitter.com/BernardFinance",
+    },
+    {
+        label: "Discord",
+        icon: "DiscordIcon",
+        href: "https://discord.gg/vZwyFPZq",
+    },
+    {
         label: "Telegram",
         icon: "TelegramIcon",
         items: [
@@ -2276,16 +2286,6 @@ var socials = [
                 href: "https://t.me/bernardfinance_ANN",
             },
         ]
-    },
-    {
-        label: "Twitter",
-        icon: "TwitterIcon",
-        href: "https://twitter.com/BernardFinance",
-    },
-    {
-        label: "Discord",
-        icon: "DiscordIcon",
-        href: "https://discord.gg/vZwyFPZq",
     },
 ];
 var MENU_HEIGHT = 64;
