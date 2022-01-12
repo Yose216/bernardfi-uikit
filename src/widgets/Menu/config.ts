@@ -134,6 +134,10 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
         {
+            label: "Official",
+            href: "https://t.me/bernardfinance",
+        },
+        {
             label: "France",
             href: "https://t.me/bernardfinanceFR",
         },
