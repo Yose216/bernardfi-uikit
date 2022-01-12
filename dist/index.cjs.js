@@ -2423,13 +2423,13 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container$4, null,
         React__default['default'].createElement(SocialEntry, null, bernPriceUsd ? (React__default['default'].createElement(PriceLink, { href: bernPriceLink, target: "_blank" },
-            React__default['default'].createElement(Icon$N, { width: "20px", mr: "5px" }),
+            React__default['default'].createElement(Icon$N, { width: "20px" }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + bernPriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }))),
         React__default['default'].createElement(SocialEntry, null, barrelPriceUsd ? (React__default['default'].createElement(PriceLink, { href: barrelPriceLink, target: "_blank" },
-            React__default['default'].createElement(Icon$M, { width: "20px", mr: "5px", ml: "5px" }),
+            React__default['default'].createElement(Icon$M, { width: "20px" }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + barrelPriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }))),
         React__default['default'].createElement(SocialEntry, null, bonesPriceUsd ? (React__default['default'].createElement(PriceLink, { href: bonesPriceLink, target: "_blank" },
-            React__default['default'].createElement(Icon$L, { width: "20px", mr: "5px", ml: "5px" }),
+            React__default['default'].createElement(Icon$L, { width: "20px" }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + bonesPriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }))),
         React__default['default'].createElement(SocialEntry, null,
             React__default['default'].createElement(Flex, null, socials.map(function (social, index) {

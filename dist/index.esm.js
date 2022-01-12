@@ -2410,13 +2410,13 @@ var PanelFooter = function (_a) {
     }
     return (React.createElement(Container$4, null,
         React.createElement(SocialEntry, null, bernPriceUsd ? (React.createElement(PriceLink, { href: bernPriceLink, target: "_blank" },
-            React.createElement(Icon$N, { width: "20px", mr: "5px" }),
+            React.createElement(Icon$N, { width: "20px" }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + bernPriceUsd.toFixed(4)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))),
         React.createElement(SocialEntry, null, barrelPriceUsd ? (React.createElement(PriceLink, { href: barrelPriceLink, target: "_blank" },
-            React.createElement(Icon$M, { width: "20px", mr: "5px", ml: "5px" }),
+            React.createElement(Icon$M, { width: "20px" }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + barrelPriceUsd.toFixed(4)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))),
         React.createElement(SocialEntry, null, bonesPriceUsd ? (React.createElement(PriceLink, { href: bonesPriceLink, target: "_blank" },
-            React.createElement(Icon$L, { width: "20px", mr: "5px", ml: "5px" }),
+            React.createElement(Icon$L, { width: "20px" }),
             React.createElement(Text, { color: "textSubtle", bold: true }, "$" + bonesPriceUsd.toFixed(4)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))),
         React.createElement(SocialEntry, null,
             React.createElement(Flex, null, socials.map(function (social, index) {
