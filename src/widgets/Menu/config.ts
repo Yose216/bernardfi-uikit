@@ -122,7 +122,7 @@ export const socials = [
   {
     label: "Discord",
     icon: "DiscordIcon",
-    href: "https://discord.gg/Qab3dzazTY",
+    href: "https://discord.gg/rcmgKWr2Fr",
   },
   {
     label: "Instagram",
